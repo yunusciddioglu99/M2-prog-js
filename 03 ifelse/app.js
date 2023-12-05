@@ -21,11 +21,11 @@ class App
       {
         newstitle.style.backgroundColor = "#FF0000"
       } 
-      else if (random == 0.2|| random < 0.6)
+      else if (random >= 0.2&& random < 0.6)
       {
         newstitle.style.backgroundColor = "#9f37cc"
       } 
-      else if (random == 0.2|| random < 0.75)
+      else if (random >= 0.6&& random < 0.75)
       {
         newstitle.style.backgroundColor = "#0a2d69"
       } 
