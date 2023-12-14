@@ -75,6 +75,12 @@ superMooieGlobalFunction();
 superMooieGlobalFunction();
 
 
+
+let g = 5
+let p = 9
+
+
+
 class App
 {
     runApplication()
@@ -95,6 +101,31 @@ class App
 
     }
 
+    Mario()
+    {
+        console.log("MARIO!!")
+    }
+
+    Bowser()
+    {
+        let lach = "BWAHAHA!!!"
+        return lach;
+    }
+
+
+    
+
+    Nummers(g,p)
+    {
+        let f = g+p
+        return f
+    }
+
+
+
+
+
+
 
 }
 
@@ -102,3 +133,7 @@ let app = new App();
 app.runApplication();
 app.newClassFunction();
 app.anotherFunctionWithArguments("mijn argument is iets...");
+
+app.Mario();
+app.Bowser();
+app.Nummers();
