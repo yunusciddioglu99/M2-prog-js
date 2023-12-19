@@ -27,7 +27,7 @@ class App
     array.splice(indexToRemove1,1);
 
     array.push("Ado");
-    array.push("Lil Uzi Vert");
+    array.push("Lil Uzi Verti");
 
 
     for (let i = 0; i < array.length; i++) {
@@ -35,8 +35,20 @@ class App
         console.log(i+ ": " + element);
     }
 
+   let games = document.getElementsByClassName("games");
 
+   for (let i = 0; i < games.length; i++) {
+    let element1 = games[i];
+    console.log(element1);
+    console.log(element1.innerText);
+    console.log(element1.innerText = "Huh?");
+   }
 
+games[0].innerText = "nieuws"   
+games[1].innerText = "reviews"
+games[2].innerText = "commentaar"
+games[3].innerText = "beste forum posts"
+games[4].innerText = "pricewatch"
 
 
 
@@ -44,6 +56,7 @@ class App
 
         console.log(arraynummers);
     }
+
 }
 
 let app = new App();

@@ -135,5 +135,6 @@ app.newClassFunction();
 app.anotherFunctionWithArguments("mijn argument is iets...");
 
 app.Mario();
-app.Bowser();
+let bowser = app.Bowser();
+console.log(bowser)
 app.Nummers();
