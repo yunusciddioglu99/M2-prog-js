@@ -12,11 +12,12 @@ class Greet
 {
     constructor()
     {
+        this.greeting = "Greetings!";
     }
 
     showGreeting()
     {
-        console.log("Greetings!");
+        console.log("greeting van binnen: " +this.greeting);
     }
 }
 
@@ -26,11 +27,12 @@ class Goodbye
 {
     constructor()
     {
+        this.farewell = "Bye Bye";
     }
 
     showBye()
     {
-        console.log("Bye Bye");
+        console.log("Bye Bye van binnen: "+this.farewell);
     }
 }
 
