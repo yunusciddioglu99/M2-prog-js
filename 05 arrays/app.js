@@ -51,6 +51,9 @@ games[3].innerText = "beste forum posts"
 games[4].innerText = "pricewatch"
 
 
+let data = ["Nier:Automata, Persona 5, Nier:Replicant, God of War, Call of Duty Black Ops 3"]
+
+
 
         let arraynummers = [9, 8, 7];
 
